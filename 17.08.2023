@@ -1,0 +1,139 @@
+//P1
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+Output
+Hello world
+
+
+//P2 
+#include <stdio.h>
+int main()
+{   
+char name[100];
+printf("Enter a sentence:\n");
+scanf("%s",&name);
+printf("My name is: %s.", name);
+return 0;
+}
+output 
+Enter a sentence 
+Abu
+My name is Abu
+
+
+//P3(a) 
+#include <stdio.h> 
+int main() 
+{
+printf("######\n");
+printf("#\n");
+printf("#\n");
+printf("#####\n");
+printf("#\n");
+printf("#\n");
+printf("#\n");
+return(0);
+}
+output 
+######
+#
+#
+#####
+#
+#
+#
+
+
+//P3(b) 
+#include <stdio.h> 
+int main() 
+{
+printf("    ######\n");
+printf("  ##      ##\n");
+printf(" #\n");
+printf(" #\n");
+printf(" #\n");
+printf(" #\n");
+printf(" #\n");
+printf("  ##      ##\n");
+printf("    ######\n");
+return(0);
+}
+output 
+ ######
+##    ##
+#
+#
+#
+#
+# 
+##     ##
+  ######
+
+
+//P4 
+#include<stdio.h>
+int main() 
+{
+int num;
+printf("Enter the number:\n");
+scanf("%d", &num);
+printf("The number is %d", num);
+return 0;
+}
+output 
+Enter the number: 
+7
+The number is 7
+
+
+//P5 
+#include<stdio.h>
+#include<math.h>
+int main() 
+{
+int num, val;
+printf("Enter the number:\n");
+scanf("%d", &num);
+val=sqrt(num);
+printf("square root of %d is %d",num,val);
+return 0;
+}
+output 
+Enter the number:
+81
+square root of 81 is 9
+
+
+//P8 
+#include<stdio.h>
+int main() 
+{
+int num;
+num=7;
+printf("The number is %d", num);
+return 0;
+}
+output 
+The number is 7
+
+ 
+//P9 
+#include <stdio.h> 
+int main() 
+{
+char char1 = 'X';
+char char2 = 'M';
+char char3 = 'L';
+printf("The reverse of %c%c%c is %c%c%c\n",char1, char2, char3,char3, char2, char1);
+return(0);
+}
+output
+The reverse of XML is LMX
