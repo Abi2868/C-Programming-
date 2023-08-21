@@ -1,0 +1,90 @@
+//P6
+
+#include <stdio.h>
+#define abcd 5
+int main()
+{
+    int a,b;
+    printf("Enter the num:");
+    scanf("%d",&a);
+    b=abcd*a;
+    printf("ans b is- %d",b);
+    return 0;
+}
+
+
+//P7
+
+#include <stdio.h>
+#define a   
+int main()
+{
+    #ifdef a
+      printf("Hi\n");      
+    #else
+      printf("Bye\n");      
+    #endif
+    return 0;
+}
+
+//P11
+
+#include <stdio.h>
+int main(){
+    int i;
+    char c;
+    float f;
+    long int k;
+    unsigned long int l;
+
+    printf("Integer :");
+    scanf("%d",&i);
+   
+    printf("Character :");
+    scanf("%c",&c);
+   
+    printf("Float number :");
+    scanf("%f",&f);
+   
+    printf("Long int :");
+    scanf("%ld",&k);
+   
+    printf("unsigned long int :");
+    scanf("%lu",&l);
+   
+    printf("\nInteger you entered is : %d", i);
+    printf("\nCharacter you entered is : %c", c);
+    printf("\nFloating point number you entered is : %f", f);
+    printf("\nLong integer is : %ld", k);
+    printf("\nunsigned long integer is : %lu", l);
+     
+    return 0;
+}
+
+//P12
+
+#include <stdio.h>  
+int main()  
+{  
+    int a=1;    
+    printf("size of the variable a is %d", sizeof(a));    
+return 0;  
+}  
+
+//P16
+
+#include <stdio.h>  
+int main()  
+{  
+    char z;      
+    printf("Enter a character :");  
+    scanf("%c",&z);
+    printf("\n The ascii value of the ch variable is : %d", z);  
+    return 0;  
+}  
+
+
+      
+
+
+
