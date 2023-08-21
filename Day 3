@@ -1,0 +1,81 @@
+// P20
+
+#include<stdio.h>
+int main()
+{
+  enum week_day {SUN, MON, TUE, WED, THU, FRI, SAT};
+  enum week_day day;
+  for(day=SUN;day<=SAT;day++){
+    printf("%d",day);
+  }
+  return 0;
+}
+
+
+// P21
+
+#include<stdio.h>
+#include<stdbool.h>
+int main()
+{
+  bool a1 = true;
+  bool a2 = false;
+  bool a3 = 0;
+  bool a4 = 17;
+  printf("%d %d %d %d", a1, a2, a3, a4);
+  return 0;
+}
+
+// P22
+
+#include<stdio.h>
+int main()
+{
+  int a = 1862;
+  printf("%d",a);
+  return 0;
+}
+
+// P23
+
+#include<stdio.h>
+int main()
+{
+  char ar;
+  printf("enter any key\n");
+  scanf("%c",&ar);
+  printf("%d",ar);
+  return 0;
+}
+
+// P24
+
+#include<stdio.h>
+int main()
+{
+  const int a=8;
+  printf("%d",a);
+  return 0;
+}
+
+// P25
+
+#include<stdio.h>
+int main()
+{
+  const int a=7;
+  a=3;  
+  printf("%d",a);   // Displays error
+  return 0;
+}
+
+// P26
+
+#include<stdio.h>
+int main()
+{
+  int else = 7;
+  printf("%d", else);
+  return 0;
+}
+
